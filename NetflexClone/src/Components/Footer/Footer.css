@@ -1,0 +1,25 @@
+.Footerwraper{
+    color: rgb(74, 70, 70);
+    display: flex;
+   padding-right: 200px;
+   padding-left: 200px;
+   justify-content: space-between;
+    opacity: 0.8;
+    width: 100%;
+    position:sticky
+}
+
+.Footerwraper ul{
+    list-style: none;
+    line-height: 30px;
+}
+
+.serviceCode{
+    border: 2px solid white;
+}
+
+.icons{
+    row-gap: 20px;
+    background-color: blue;
+
+}
