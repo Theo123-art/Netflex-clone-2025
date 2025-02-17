@@ -6,11 +6,11 @@ const Requested = {
   fetchingTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
   fetchNetflixOrginals: `/discover/tv?api_key=${API_KEY}&with_networks=123`,
   fetchTopRateMovies: `/movie/top_rated?api_key=${API_KEY}&language=en-US`,
-  fetchActionMovies: `/discover/tv?api_key=${API_KEY}&with_networks=28`,
-  fetchComedyMovies: `/discover/tv?api_key=${API_KEY}&with_networks=35`,
-  fetchHorrorMovies: `/discover/tv?api_key=${API_KEY}&with_networks=27`,
-  fetchRomanceMovies: `/discover/tv?api_key=${API_KEY}&with_networks=10749`,
-  fetchiDocumentaries: `/discover/tv?api_key=${API_KEY}&with_networks=99`,
-  fetchTvShow: `tv/popular?api_key=${API_KEY}&language=en-US`,
+  fetchActionMovies: `/discover/movie?api_key=${API_KEY}&with_genres=28`,
+  fetchComedyMovies: `/discover/movie?api_key=${API_KEY}&with_genres=35`,
+  fetchHorrorMovies: `/discover/movie?api_key=${API_KEY}&with_genres=27`,
+  fetchRomanceMovies: `/discover/movie?api_key=${API_KEY}&with_genres=10749`,
+  fetchiDocumentaries: `/discover/movie?api_key=${API_KEY}&with_genres=99`,
+  fetchTvShow: `tv/popular?api_key=${API_KEY}&language=en-US&page=1`,
 };
 export default Requested;
