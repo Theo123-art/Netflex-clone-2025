@@ -18,3 +18,6 @@
 body{
     background-color: #111;
 }
+element.style{
+  padding: 10px
+}
