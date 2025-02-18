@@ -1,5 +1,15 @@
 .Footerwraper{
-    color: rgb(74, 70, 70);
+color: grey;
+
+}
+
+
+
+
+
+
+.InnerFooterWraper{
+    
     display: flex;
    padding-right: 200px;
    padding-left: 200px;
@@ -9,7 +19,8 @@
     position:sticky
 }
 
-.Footerwraper ul{
+
+.InnerFooterWraper ul{
     list-style: none;
     line-height: 30px;
 }
@@ -18,8 +29,18 @@
     border: 2px solid white;
 }
 
-.icons{
-    row-gap: 20px;
-    background-color: blue;
-
+.incons{
+display: flex;
+gap: 30px;
 }
+
+.copywrite{
+   text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    .Footerwraper {
+        flex-direction: column;
+        align-items: center;
+    }}

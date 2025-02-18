@@ -5,8 +5,10 @@ import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import AccountBoxIcon from "@mui/icons-material/AccountBox";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 
+
 const Header = () => {
-  return (
+
+   return (
     <header className="header">
       {/* Netflix Logo */}
       <div className="logo">
@@ -17,7 +19,6 @@ const Header = () => {
       <nav className="nav-links">
         <ul>
           <li>
-            {" "}
             <a href="/">Home</a>
           </li>
           <li>
@@ -32,17 +33,12 @@ const Header = () => {
           <li>
             <a href="/my-list">My List</a>
           </li>
-          <li><a href="/BrowseByLanguages" > Browse by Languages</a></li>
+          <li>
+            <a href="/BrowseByLanguages"> Browse by Languages</a>
+          </li>
         </ul>
       </nav>
-    {/* jjdfjdjf */}
-      {/* Search Bar
-      <div className="search-bar">
-        <input type="text" placeholder="Search..." />
-        <button>Search</button>
-      </div> */}
 
-      {/* User Profile Icon */}
       <div className="headerRight">
         <ul>
           <li>
@@ -54,7 +50,10 @@ const Header = () => {
           <li>
             <AccountBoxIcon />
           </li>
-          <li>
+          <li
+            // className="menu-toggle-btn"
+            // onClick={() => setMenuOpen(!menuOpen)}
+          >
             <ArrowDropDownIcon />
           </li>
         </ul>
