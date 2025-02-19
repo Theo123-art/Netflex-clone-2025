@@ -7,7 +7,7 @@
   color: white;
   position: sticky;
   top: 0;
-  width: 100%;
+  /* width: 100%; */
   z-index: 1000;
 }
 
@@ -65,4 +65,10 @@ display: flex;
   border: none;
   border-radius: 3px;
   cursor: pointer;
+}
+
+@media(max-width:760px){
+  .remvMobileview {
+    display: none;
+  }
 }

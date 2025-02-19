@@ -45,7 +45,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div>
+        <div className="remvMobileview">
           <ul>
             <li>Media Center</li>
             <li>Privacy</li>
