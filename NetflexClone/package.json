@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Theo123-art.github.io/Netflex-clone-2025",
+  "homepage": "https://Theo123-art.github.io/Netflex-clone-2025/NetflexClone",
   "name": "netflexclone",
   "private": true,
   "version": "0.0.0",
@@ -8,7 +8,7 @@
     "dev": "vite",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "vite build",
+    "build": "react-scripts build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
