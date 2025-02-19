@@ -9,9 +9,15 @@ const Footer = () => {
       <div className="InnerFooterWraper">
         <div className="firstColumn">
           <div className="incons">
-            <FacebookIcon />
-            <InstagramIcon />
-            <YouTubeIcon />
+            <div>
+              <FacebookIcon />
+            </div>
+            <div>
+              <InstagramIcon />
+            </div>
+            <div>
+              <YouTubeIcon />
+            </div>
           </div>
           <div>
             <ul>

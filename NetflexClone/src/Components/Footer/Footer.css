@@ -24,7 +24,9 @@ color: grey;
     list-style: none;
     line-height: 30px;
 }
-
+.InnerFooterWraper ul li:hover{
+color: white;
+}
 .serviceCode{
     border: 2px solid white;
 }
@@ -33,11 +35,16 @@ color: grey;
 display: flex;
 gap: 30px;
 }
+.incons div:hover{
+    color: white;
+}
 
 .copywrite{
    text-align: center;
 }
-
+.copywrite:hover{
+color: white;
+}
 
 @media (max-width: 768px) {
     .Footerwraper {
